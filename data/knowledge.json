@@ -1,0 +1,123 @@
+[
+  {
+    "id": "kb-submission-platform-nrims",
+    "title": "Online Submission Platform: UNCST NRIMS Portal",
+    "category": "Submission",
+    "keywords": [
+      "nrims",
+      "uncst",
+      "submission platform",
+      "online submission",
+      "website",
+      "how to submit",
+      "portal"
+    ],
+    "content": "All protocol applications to the Makerere University Business School Research Ethics Committee (MUBS REC) must be submitted online via the Uganda National Council for Science and Technology (UNCST) National Research Information Management System (NRIMS) portal at: https://nrims.uncst.go.ug/ . Submissions and exemption requests must be made through this platform.",
+    "lastUpdated": "2026-10-20",
+    "author": "MUBS REC Secretariat"
+  },
+  {
+    "id": "kb-submission-checklist",
+    "title": "MUBSREC Mandatory Submission Checklist",
+    "category": "Submission",
+    "keywords": [
+      "checklist",
+      "requirements",
+      "documents needed",
+      "community engagement",
+      "risk management",
+      "dissemination plan",
+      "fgsr letter"
+    ],
+    "content": "Complete submission package for MUBS REC clearance on NRIMS requires:\n1. Full Proposal (Approved by supervisors and submitted to Graduate School)\n2. CV of investigator/s or researchers\n3. Community Engagement Plan\n4. Risk Management Plan\n5. Dissemination Plan\n6. Data Collection Tools (translated where applicable)\n7. Informed Consent Form (translated where applicable)\n8. Letter from FGSR for students addressed to the Chairperson MUBS REC indicating they are due for REC clearance (For external/independent researchers: a formal letter addressed to Chairperson MUBS REC seeking REC clearance)\n9. Work Plan\n10. Proof of Payment (Receipt from the MUBS accounts office)\n\nNote: For unique or sophisticated research (e.g. big data research), additional documents like a Data Management Plan are required. Check with the Secretariat for specialized requirements.",
+    "lastUpdated": "2026-10-20",
+    "author": "MUBS REC Secretariat"
+  },
+  {
+    "id": "kb-resubmission-guidelines",
+    "title": "MUBSREC Resubmission Guidelines Following Reviewer Comments",
+    "category": "Review Process",
+    "keywords": [
+      "resubmission",
+      "revisions",
+      "track changes",
+      "compliance report",
+      "response matrix",
+      "comments"
+    ],
+    "content": "When resubmitting following REC reviewer comments:\n• Track Version of Proposal: Turn on 'Track Changes' in Microsoft Word before making any edits so all adjustments are visible.\n• Clean Version of Proposal: A clean copy with all Track Changes accepted/removed.\n• Track Copies of all Appendices with comments.\n• Clean Copies of all Appendices.\n• Compliance Report / Comment Response Matrix addressing every single REC reviewer comment point-by-point.\n\nCRITICAL: Please do NOT submit the compliance report from your oral defense. Only submit the compliance report specifically responding to REC reviewer comments.",
+    "lastUpdated": "2026-10-20",
+    "author": "MUBS REC Secretariat"
+  },
+  {
+    "id": "kb-approved-fee-schedule",
+    "title": "MUBSREC Approved Ethics Review Fees Schedule",
+    "category": "Fees & Banking",
+    "keywords": [
+      "fees",
+      "cost",
+      "review fees",
+      "initial review",
+      "amendments",
+      "fast track",
+      "expedited",
+      "annual review",
+      "masters",
+      "phd"
+    ],
+    "content": "MUBSREC Approved Review Fees:\n\n1. Industry Sponsored Research (Private companies/business):\n   - Initial Review: USD 600\n   - Amendments: USD 200\n   - Expedited: N/A\n   - Annual Review: USD 100\n   - Fast Track: USD 900\n\n2. Non-Industry Research (Supported by governments, charities, or universities):\n   - Initial Review: USD 400\n   - Amendments: USD 200\n   - Expedited: USD 300\n   - Annual Review: USD 100\n   - Fast Track: USD 600\n\n3. International Students:\n   - Initial Review: USD 400\n   - Amendments: USD 200\n   - Expedited: USD 300\n   - Annual Review: USD 100\n   - Fast Track: USD 600\n\n4. Ugandan & EAC Student Research (PhD):\n   - Initial Review: USD 300\n   - Amendments: USD 150\n   - Expedited: USD 300\n   - Annual Review: USD 100\n   - Fast Track: USD 450\n\n5. Ugandan & EAC Student Research (MUBS Masters):\n   - Initial Review: UGX 100,000\n   - Amendments: UGX 50,000\n   - Expedited: UGX 100,000\n   - Annual Review: NO FEE\n   - Fast Track: UGX 150,000\n\n6. MUBS Faculty Research:\n   - Initial Review: USD 150\n   - Amendments: NO FEE\n   - Expedited: USD 150\n   - Annual Review: NO FEE\n   - Fast Track: USD 225\n\nNotes:\n• Fast-track review requires an additional 50% of the initial review fee.\n• The fees must be deposited to the corresponding account according to the currency applicable to the researcher.",
+    "lastUpdated": "2026-10-20",
+    "author": "MUBS REC Secretariat"
+  },
+  {
+    "id": "kb-bank-account-details",
+    "title": "MUBSREC Official Bank Account Details (ABSA Bank)",
+    "category": "Fees & Banking",
+    "keywords": [
+      "bank",
+      "account",
+      "absa",
+      "swift",
+      "usd",
+      "ugx",
+      "payment",
+      "leadership center"
+    ],
+    "content": "Payments for MUBSREC must be deposited to the corresponding account according to the currency applicable:\n\nUSD ACCOUNT:\n• Account Name: MAKERERE UNIVERSITY BUSINESS SCHOOL\n• Bank Name: ABSA BANK\n• Account Number: 0344025878\n• Swift Code: BARCUGKX\n• Currency: USD\n\nUGX ACCOUNT:\n• Account Name: MUBS LEADERSHIP CENTER\n• Bank Name: ABSA BANK\n• Account Number: 6003524750\n• Currency: UGX\n\nProof of payment in the form of a receipt from the MUBS accounts office must be attached to your application on NRIMS.",
+    "lastUpdated": "2026-10-20",
+    "author": "MUBS REC Secretariat"
+  },
+  {
+    "id": "kb-student-clearance-timing",
+    "title": "Protocol Submission Timing & Fieldwork Clearance Policy",
+    "category": "Submission",
+    "keywords": [
+      "masters",
+      "phd",
+      "defense",
+      "supervisor approval",
+      "fieldwork clearance",
+      "when to submit"
+    ],
+    "content": "Timing of Protocol Submission:\n• MUBS Master's students: Shall submit their research protocols after their supervisor has approved the protocol.\n• PhD students: Shall submit after successful oral defense of the proposal.\n\nMandatory Fieldwork Clearance:\n• MUBS students shall ONLY be allowed to conduct field research after obtaining official ethical clearance from MUBS-REC.",
+    "lastUpdated": "2026-10-20",
+    "author": "MUBS REC Secretariat"
+  },
+  {
+    "id": "kb-exemption-criteria",
+    "title": "Exemption from MUBS REC Review: Criteria & Procedure",
+    "category": "Review Process",
+    "keywords": [
+      "exemption",
+      "exempt",
+      "screening",
+      "15 days",
+      "educational settings",
+      "publicly available data",
+      "unlinked data"
+    ],
+    "content": "The following categories of research may be considered for exemption from MUBS REC review:\n1. Use of publicly available unlinked data that does not identify individuals or communities.\n2. Research conducted in educational settings focusing on regular or special instructional strategies, curricula, or classroom management methods.\n3. Research involving existing data, documents, or records where sources are publicly available or where information cannot be linked to individual subjects.\n\nScreening & Approval:\n• The REC Chairperson shall screen all exemption applications to ensure that the protocol satisfies the requirements.\n• Exemption decisions will be granted within fifteen (15) days from the date of submission.\n\nImportant Notes for Exemption:\n• All exemption applications must be submitted through NRIMS (https://nrims.uncst.go.ug/).\n• Proof of payment, as required, must be attached.\n• A formal letter addressed to the Chairperson requesting exemption must accompany the application.\n• All required supporting information and documentation should be attached for consideration.",
+    "lastUpdated": "2026-10-20",
+    "author": "MUBS REC Secretariat"
+  }
+]
