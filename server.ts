@@ -130,16 +130,45 @@ Formatting guidelines:
 function generateFallbackResponse(userPrompt: string): string {
   const lower = userPrompt.toLowerCase();
 
-  // Check custom knowledge base entries first
+  // If the user asks about BOTH bank details AND fees, provide a clean consolidated response
+  if ((lower.includes('bank') || lower.includes('account') || lower.includes('absa')) &&
+      (lower.includes('fee') || lower.includes('cost') || lower.includes('pay') || lower.includes('rate'))) {
+    return `### 💳 MUBSREC Fees & Official Bank Account Details
+
+#### 1. Official Approved Review Fees:
+• **Ugandan & EAC MUBS Masters Students:** **UGX 100,000** (Amendments: UGX 50,000 | Expedited: UGX 100,000 | Annual Review: Free | Fast Track: UGX 150,000)
+• **Ugandan & EAC PhD Candidates:** **USD 300** (Amendments: USD 150 | Expedited: USD 300 | Annual Review: USD 100 | Fast Track: USD 450)
+• **MUBS Faculty Research:** **USD 150** (Amendments: Free | Expedited: USD 150 | Annual Review: Free | Fast Track: USD 225)
+• **Non-Industry Research (NGOs, Gov, Universities):** **USD 400** (Amendments: USD 200 | Fast Track: USD 600)
+• **International Students:** **USD 400** (Amendments: USD 200 | Fast Track: USD 600)
+• **Industry Sponsored Research:** **USD 600** (Amendments: USD 200 | Fast Track: USD 900)
+
+*Note: Fast track review is charged an additional 50% of the initial review fee.*
+
+---
+
+#### 2. Official ABSA Bank Payment Details:
+• **USD Account (International, PhD, Faculty, Industry):**
+  - **Account Name:** MAKERERE UNIVERSITY BUSINESS SCHOOL
+  - **Bank:** ABSA BANK
+  - **Account Number:** 0344025878
+  - **Swift Code:** BARCUGKX
+  - **Currency:** USD
+
+• **UGX Account (MUBS Masters Students):**
+  - **Account Name:** MUBS LEADERSHIP CENTER
+  - **Bank:** ABSA BANK
+  - **Account Number:** 6003524750
+  - **Currency:** UGX
+
+⚠️ **Proof of Payment:** Attach your official receipt from the MUBS accounts office when submitting your protocol on the **NRIMS portal** (https://nrims.uncst.go.ug/).`;
+  }
+
+  // Handle specific single-topic custom knowledge queries cleanly without raw dump
   const customMatches = searchCustomKnowledge(userPrompt);
   if (customMatches.length > 0) {
     const primary = customMatches[0];
-    let customResponse = `### 📌 ${primary.title}\n\n${primary.content}\n\n*Category: ${primary.category} | Last updated: ${primary.lastUpdated} by ${primary.author}*`;
-    if (customMatches.length > 1) {
-      customResponse += `\n\n**Related Institutional Entries:**\n` +
-        customMatches.slice(1, 3).map(m => `* **${m.title}:** ${m.content.length > 120 ? m.content.slice(0, 120) + '...' : m.content}`).join('\n');
-    }
-    return customResponse;
+    return `### 📌 ${primary.title}\n\n${primary.content}\n\n*For further details, submit via NRIMS at https://nrims.uncst.go.ug/ or contact the Secretariat at rec@mubs.ac.ug.*`;
   }
 
   if (lower.includes('fee') || lower.includes('cost') || lower.includes('pay') || lower.includes('price') || lower.includes('charge')) {
